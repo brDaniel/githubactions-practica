@@ -8,7 +8,12 @@ jobs:
     steps:
       - name: hola mundo
         run: echo "holamundo"
-  
+      - name: touch file
+        run: touch helloworld.txt
+      - name: set text
+        run: echo "hello world!" >> helloworld.txt
+      - name: read file
+        run: cat helloworld.txt
   other:
     runs-on: ubuntu-latest
     steps:
