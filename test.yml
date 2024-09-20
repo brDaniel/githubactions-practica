@@ -1,0 +1,25 @@
+key: hola mundo
+
+person:
+  name: john
+  age: 40
+  city: new york
+# string multilinea
+script: >
+  hola
+  hola
+  testor
+
+script: |
+  hola
+  hola
+  testor
+
+# listas
+items:
+  - item1
+  - item2
+
+items:
+  - item1: dos
+  - item2: uno
