@@ -1,9 +1,10 @@
-name: "my action"
+name: "My action"
 description: "test my action"
 
 runs:
   using: composite
   
   steps:
-    - name: holaa mundo
+    - name: Holaa Mundo
       run: echo "holla mundo"
+      shell: bash
