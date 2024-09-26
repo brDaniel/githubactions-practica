@@ -53,7 +53,8 @@ jobs:
         image: redis
         ports:
           - 6379:6379
-        
+    env:
+      MY_VAR: my secret 
     steps:
       - name: Test
-        run: ls
+        run: echo "valor ${MU_VAR}"
