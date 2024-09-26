@@ -57,4 +57,4 @@ jobs:
       MY_VAR: my secret 
     steps:
       - name: Test
-        run: echo "valor ${MU_VAR}"
+        run: echo "valor ${MY_VAR}"
